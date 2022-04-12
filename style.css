@@ -38,6 +38,7 @@ h2 {
      font-weight: lighter;
      font-style: italic;
      font-size: 36px;
+     width: 900px;
 }
 .navbar ul {
      display: flex;
@@ -57,12 +58,15 @@ h2 {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     padding: 0 20px;
+     padding: 30px 30px 0 30px;
 }
 .container {
      display: flex;
      flex-direction: column;
      flex: 1;
+}
+.header, .info-container, .quote, .sign-up {
+     height: 400px;
 }
 .header {
      display: flex;
@@ -77,6 +81,11 @@ img {
 }
 .text {
      width: 500px;
+}
+.info-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
 }
 .info-container, .card {
      text-align: center;
@@ -97,4 +106,15 @@ img {
 }
 .card {
      width: 250px;
+}
+.quote {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: #E5E7EB;
+}
+.author {
+     font-weight: 800;
+     margin-left: 600px
 }
