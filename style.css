@@ -20,13 +20,16 @@ p {
      color: #F9FAF8;
      font-size: 24px;
 }
-button {
+button , .button-call{
      color: #F9FAF8;
      font-weight: bold;
      padding: 5px 22px;
      background-color: #3882F6;
      border-radius: 8px;
-     border: #E5E7EB solid 2px;
+     border: none;
+}
+.button-call {
+     border: #F9FAF8 solid 2px;
 }
 h2 {
      color: #1F2937;
@@ -93,14 +96,13 @@ img {
 }
 .card-container {
      display: flex;
-     gap: 30px;
      justify-content: center;
 
 }
 .box {
      border: 2px solid #3882F6;
-     width: 100px;
-     height: 100px;
+     width: 150px;
+     height: 150px;
      border-radius: 10px;
      margin: 0 auto;
 }
@@ -136,4 +138,10 @@ img {
 h3 {
      color: #F9FAF8;
      font-size: 20px;
+}
+footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100px;
 }
